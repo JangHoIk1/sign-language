@@ -1,0 +1,77 @@
+/* Header.css */
+
+
+.main_div {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  background-color: #ffff;
+  box-shadow: 0 3px 11px 0 rgb(0 0 0 / 15%);
+}
+
+/* 로고(브랜드) 스타일 설정 */
+.brand {
+  color: black;
+  font-weight: bold;
+  display: flex; /* 로고와 플랫폼을 수평으로 정렬하기 위해 추가 */
+  align-items: center; /* 로고와 플랫폼을 수직 가운데 정렬하기 위해 추가 */
+}
+
+
+/* 로고 아이콘 스타일 설정 */
+.logo-icon {
+  font-size: 90px; /* 아이콘 크기 조절 */
+  margin-right: 30px; /* 아이콘 오른쪽 여백 추가 */
+  margin-left:20px;
+}
+
+/* 로고 옆 플랫폼 이름 설정 */
+.mainhomepage{
+  font-size: 50px;
+  text-decoration: none;
+}
+
+/* 로고 아이콘 스타일 설정 */
+.brand svg {
+  margin-right: 5px; /* 로고 아이콘 오른쪽 여백 추가 */
+}
+
+/* 네비게이션 메뉴 항목 스타일 설정 */
+.nav-link {
+  display:inline;
+  color: black;
+  font-weight: bold;
+  padding: 5px 40px 20px 40px;
+}
+
+/* 검색 바 스타일 설정 */
+.input-group {
+  max-width: 300px;
+  margin-left: auto; /* 검색 바를 오른쪽으로 밀어줍니다. */
+}
+
+/* 검색 버튼 스타일 설정 */
+#button-addon2 {
+  background-color: #007bff;
+  border-color: #007bff;
+  font-weight: bold;
+}
+
+/* 회원가입 및 로그인 버튼 스타일 설정 */
+.btn-primary {
+  width:85px;
+  height:30px;
+  color:#007bff;
+  border-color: #007bff;
+  font-weight: bold;
+}
+
+.btn-outline-primary {
+  width:85px;
+  height:30px;
+  background-color: #007bff;
+  color:#fff;
+  font-weight: bold;
+  margin-left: 10px; /* 로그인과 회원가입 버튼을 오른쪽으로 배치합니다. */
+}
