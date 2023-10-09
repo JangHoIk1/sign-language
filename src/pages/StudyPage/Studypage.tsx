@@ -1,7 +1,5 @@
 // Studypage.tsx
 import React from 'react';
-
-
 function Studypage() {
   return (
     <div>

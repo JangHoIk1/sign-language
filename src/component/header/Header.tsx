@@ -41,7 +41,7 @@ function Header() {
 
             {/* 회원가입 버튼 */}
             {/* 회원가입 페이지로 이동하는 Link */}
-            <Link to="/signup" className="ml-2">
+            <Link to="/RegistrationForm" className="ml-2">
               <Button variant="primary">Sign Up</Button>
             </Link>
 
