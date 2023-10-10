@@ -14,8 +14,9 @@
 .brand {
   color: black;
   font-weight: bold;
-  display: flex; /* 로고와 플랫폼을 수평으로 정렬하기 위해 추가 */
-  align-items: center; /* 로고와 플랫폼을 수직 가운데 정렬하기 위해 추가 */
+  display: flex;
+  align-items: center;
+  margin-right: 100px; /* 로고와 네비게이션 메뉴 사이에 간격 추가 */
 }
 
 
@@ -37,8 +38,14 @@
   margin-right: 5px; /* 로고 아이콘 오른쪽 여백 추가 */
 }
 
+/* ml-auto 클래스를 확장하여 오른쪽 여백 추가 */
+.ml-auto {
+  margin-left: 10%; /* 오른쪽 여백 추가 */
+}
+
 /* 네비게이션 메뉴 항목 스타일 설정 */
 .nav-link {
+  margin-left:30px;
   display:inline;
   color: black;
   font-weight: bold;

@@ -19,11 +19,10 @@ function App() {
 
       <Routes>
       <Route path="/" element={<Homepage />} /> {/* Homepage 컴포넌트를 이렇게 렌더링 */}
-      <Route path="/callpage" element={<Callpage />} /> {/* Homepage 컴포넌트를 이렇게 렌더링 */}
-      <Route path="/studypage" element={<Studypage />} /> {/* Homepage 컴포넌트를 이렇게 렌더링 */}
-      <Route path="/teampage" element={<Teampage />} /> {/* Homepage 컴`포넌트를 이렇게 렌더링 */}
+      <Route path="/callpage" element={<Callpage />} /> 
+      <Route path="/studypage" element={<Studypage />} /> 
+      <Route path="/teampage" element={<Teampage />} /> 
       <Route path="/RegistrationForm" element={<RegistrationForm />} /> 
-      {/* <Route path="/SignUp/Login" element={<Login />} /> SignupForm 컴포넌트 연결 */}
       
       </Routes>
 

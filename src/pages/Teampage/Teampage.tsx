@@ -1,6 +1,6 @@
 import React from 'react';
 
-function TeamPage() {
+function Teampage() {
   return (
     <div>
       <h2>팀 소개 페이지</h2>
@@ -9,4 +9,4 @@ function TeamPage() {
   );
 }
 
-export default TeamPage;
+export default Teampage;

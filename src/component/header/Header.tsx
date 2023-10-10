@@ -19,9 +19,9 @@ function Header() {
           {/* 네비게이션 메뉴 */}
           <Nav className="ml-auto">
             <Nav.Link as={Link} to="/">Home</Nav.Link>
-            <Nav.Link as={Link} to="/call">Call</Nav.Link>
+            <Nav.Link as={Link} to="/Callpage">Call</Nav.Link>
             <Nav.Link as={Link} to="/Studypage">Studypage</Nav.Link>
-            <Nav.Link as={Link} to="/team">Team</Nav.Link>
+            <Nav.Link as={Link} to="/Teampage">Team</Nav.Link>
 
 
 
